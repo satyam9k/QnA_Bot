@@ -9,10 +9,10 @@ from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 import hashlib
 import json
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 
 # Load environment variables
-load_dotenv()
+#load_dotenv()
 
 class SmartChatBot:
     def __init__(self, sql_db_path=None, gemini_api_key=None):
