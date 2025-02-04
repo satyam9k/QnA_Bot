@@ -279,7 +279,7 @@ def main():
                                              accept_multiple_files=True)
     
     # Main app title
-    st.title("🤖 Smart RAG & SQL Chatbot")
+    st.title("QnA Bot")
     
     # Initialize or reset chatbot
     if 'chatbot' not in st.session_state or st.sidebar.button("Reset Chatbot"):
