@@ -254,10 +254,10 @@ class SmartChatBot:
 
 def main():
     # Streamlit app configuration
-    st.set_page_config(page_title="Smart RAG & SQL Chatbot", page_icon="🤖")
+    st.set_page_config(page_title="QnA Bot")
     
     # Sidebar for configuration
-    st.sidebar.title("🔧 Chatbot Configuration")
+    st.sidebar.title("Chatbot Configuration")
     
     # Check for env configuration
     gemini_api_key = os.getenv('GEMINI_API_KEY')
