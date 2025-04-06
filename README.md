@@ -1,4 +1,4 @@
-# PDF & SQL QnA Bot 🤖📄📊
+# PDF & SQL QnA Bot 
 
 This project is a Streamlit web application that acts as an intelligent Question & Answering (QnA) bot. It can answer user queries based on information extracted from uploaded PDF documents or by querying a connected SQLite database. The bot leverages Google's Gemini API for natural language understanding and generation, and Sentence Transformers for efficient text embedding and retrieval.
 
